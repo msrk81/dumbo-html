@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="Group_53" data-name="Group 53" transform="translate(-1655 -4269)">
+    <g id="Rectangle_18" data-name="Rectangle 18" transform="translate(1655 4269)" fill="none" stroke="#01ebac" stroke-width="1">
+      <rect width="38" height="38" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="37" height="37" rx="2.5" fill="none"/>
+    </g>
+    <g id="right-arrow-angle" transform="translate(1669.879 4280.891)">
+      <g id="_x38_" transform="translate(0)">
+        <g id="Group_51" data-name="Group 51" transform="translate(0)">
+          <path id="Path_21" data-name="Path 21" d="M164.835,7.09l7.577-6.9a.639.639,0,0,1,.9,0,.631.631,0,0,1,0,.9l-7.12,6.489,7.119,6.489a.631.631,0,0,1,0,.9.639.639,0,0,1-.9,0l-7.577-6.9a.624.624,0,0,1-.18-.48A.629.629,0,0,1,164.835,7.09Z" transform="translate(-164.653)" fill="#01ebac"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

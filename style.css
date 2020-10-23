@@ -639,8 +639,8 @@ Start Section 1
     padding-left: 32px;
 }
 
-.aboutMeSkillsEductionText h1{
-    font-size: 20px ;
+.aboutMeSkillsEductionText h1 {
+    font-size: 20px;
     color: var(--primeryColor);
 }
 
@@ -656,7 +656,25 @@ Start Section 1
     color: var(--secendyColor);
 }
 
+.aboutMeSkillsMe p {
+    color: var(--secendyColor);
+    font-size: 15px;
+    text-align: center;
+}
 
+.aboutMeSkillsMe span {
+    color: var(--primeryColor);
+}
+
+.aboutMeSkillsMe a {
+    color: var(--secendyColor);
+}
+
+.aboutMeSkillsMe p:first-of-type {
+    width: 80%;
+    display: block;
+    margin: 0 auto 40px;
+}
 
 /*
 ==========

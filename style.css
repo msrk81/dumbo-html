@@ -549,6 +549,87 @@ header {
     flex-direction: column;
 }
 
+/*
+========
+End Header
+========
+*/
+
+/*
+==========
+Start Section 1
+==========
+*/
+
 .aboutMe {
     background-color: var(--secendyBackGround);
+    padding-bottom: 140px;
+    padding-top: 140px;
 }
+
+.aboutMeImg img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aboutMeBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.aboutMeBtn button {
+    color: var(--secendyColor);
+    background-color: unset;
+    border: 2px solid var(--primeryColor);
+    font-family: "iransans", sans-serif;
+    font-size: 13px;
+    padding: 13px 30px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.ProgressSkillsCont {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #3D3D3D;
+    height: 7px;
+}
+
+.BarSkillsCont {
+    border-radius: 5px;
+    height: 7px;
+    background-color: var(--primeryColor);
+}
+
+.aboutMeSkillsTitr, .aboutMeSkillsNum {
+    color: var(--secendyColor);
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.aboutMeSkillsTitr {
+    position: absolute;
+}
+
+.aboutMeSkills {
+    margin-bottom: 68px;
+}
+
+.aboutMeResumeBtn {
+    background-color: #1C1C1C;
+    color: var(--primeryColor);
+    padding: 15px 48px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+/*
+==========
+End Section 1
+==========
+*/

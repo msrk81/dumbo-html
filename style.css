@@ -656,21 +656,21 @@ Start Section 1
     color: var(--secendyColor);
 }
 
-.aboutMeSkillsMe p {
+#aboutMeSkillsMe p {
     color: var(--secendyColor);
     font-size: 15px;
     text-align: center;
 }
 
-.aboutMeSkillsMe span {
+#aboutMeSkillsMe span {
     color: var(--primeryColor);
 }
 
-.aboutMeSkillsMe a {
+#aboutMeSkillsMe a {
     color: var(--secendyColor);
 }
 
-.aboutMeSkillsMe p:first-of-type {
+#aboutMeSkillsMe p:first-of-type {
     width: 80%;
     display: block;
     margin: 0 auto 40px;
@@ -679,5 +679,61 @@ Start Section 1
 /*
 ==========
 End Section 1
+==========
+*/
+
+/*
+===========
+Start Section 2
+===========
+*/
+
+.ourServices {
+    padding-top: 115px;
+    padding-bottom: 150px;
+    background-color: var(--PrimeryBackGround);
+}
+
+.ourServices h1:first-child {
+    font-size: 35px;
+    color: var(--secendyColor);
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.osCont {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #083D2F;
+    padding: 55px 25px 35px;
+}
+.osCont img {
+    height: 55px;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.osCont h1 {
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.osCont p , .osCont h1 {
+    color: var(--secendyColor);
+    text-align: center;
+}
+
+.osCont p {
+    font-size: 13px;
+}
+
+/*
+==========
+End Section 2
 ==========
 */

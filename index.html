@@ -98,18 +98,18 @@ Start Section 1
         <div class="row">
             <div class="col-lg-6">
                 <div class="aboutMeBtn">
-                    <button>
+                    <button id="progressBTN" onclick="aboutMeFunc('eduction')">
                         تحصیلات من
                     </button>
-                    <button>
+                    <button style="color: var(--primeryColor)" id="eductionBTN" onclick="aboutMeFunc('progress')">
                         مهارت های من
                     </button>
-                    <button>
+                    <button id="skillBTN" onclick="aboutMeFunc('skillme')">
                         درباره من
                     </button>
                 </div>
                 <div class="aboutMeSkills">
-                    <div style="display: none" class="aboutMeSkillsProgressCont">
+                    <div style="display: block" id="aboutMeSkillsProgressCont">
                         <div style="margin-bottom: 30px;">
                             <p class="aboutMeSkillsTitr">
                                 UI/UX Design
@@ -155,7 +155,7 @@ Start Section 1
                             </div>
                         </div>
                     </div>
-                    <div style="display: none" class="aboutMeSkillsEductionCont">
+                    <div style="display: none" id="aboutMeSkillsEductionCont">
                         <div class="aboutMeSkillsEduction">
                             <div class="aboutMeSkillsEductionImg">
                                 <img src="images/statics/eduction.svg" alt="">
@@ -189,7 +189,7 @@ Start Section 1
                             </div>
                         </div>
                     </div>
-                    <div style="display: none" class="aboutMeSkillsMe">
+                    <div style="display: none" id="aboutMeSkillsMe">
                         <p>
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
                             است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
@@ -227,5 +227,64 @@ End Section 1
 ==========
 -->
 
+<!--
+==========
+Start Section 2
+==========
+-->
+
+<section class="ourServices">
+    <div class="container">
+        <h1>
+            خدمات ما
+        </h1>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="osCont">
+                    <img src="images/services/developer.png" alt="Our Services Images">
+                    <h1>
+                        برنامه نویسی وب سایت
+                    </h1>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="osCont">
+                    <img src="images/services/design-tool(1).png" alt="Our Services Images">
+                    <h1>
+                        طراحی رابط کاربری
+                    </h1>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="osCont">
+                    <img src="images/services/project-management.png" alt="Our Services Images">
+                    <h1>
+                        مدیریت پروژه
+                    </h1>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+==========
+End Section 2
+==========
+-->
+
+<script src="script.js"></script>
 </body>
 </html>

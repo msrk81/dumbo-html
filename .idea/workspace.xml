@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1jEpu99YJw0Ziqtngj2i1etVLQD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +43,17 @@
       <updated>1603379324434</updated>
       <workItem from="1603379325590" duration="3007000" />
       <workItem from="1603444337061" duration="2417000" />
-      <workItem from="1603461209487" duration="14514000" />
+      <workItem from="1603461209487" duration="14558000" />
+      <workItem from="1603731634562" duration="8000" />
+      <workItem from="1603731732487" duration="5000" />
+      <workItem from="1603731792384" duration="1540000" />
+      <workItem from="1603900676505" duration="11000" />
+      <workItem from="1603900735500" duration="4000" />
+      <workItem from="1603900753978" duration="15000" />
+      <workItem from="1603900831885" duration="41000" />
+      <workItem from="1603900886197" duration="2000" />
+      <workItem from="1603901005523" duration="2921000" />
+      <workItem from="1603975016093" duration="11656000" />
     </task>
     <servers />
   </component>
@@ -44,6 +61,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="535" y="372" key="#Notifications" timestamp="1603977164245">
+      <screen x="0" y="0" width="1600" height="1170" />
+    </state>
+    <state x="535" y="372" key="#Notifications/0.0.1600.1170@0.0.1600.1170" timestamp="1603977164245" />
     <state x="254" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603380576073">
       <screen x="0" y="0" width="1600" height="1170" />
     </state>

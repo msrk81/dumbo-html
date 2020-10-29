@@ -776,6 +776,7 @@ Start Section 3
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 .wscont img {
@@ -783,8 +784,173 @@ Start Section 3
     height: 100%;
 }
 
+.wstxtCont {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(8, 61, 47, 0.80);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.wscont:hover .wstxtCont {
+    visibility: visible;
+    opacity: 1;
+}
+
+.wstxt {
+    border-radius: 2px;
+    border: 2px solid var(--primeryColor);
+    padding: 10px 20px;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--secendyColor);
+}
+
 /*
 ==========
 End Section 3
 ==========
+*/
+
+/*
+==========
+Start Section 4
+==========
+*/
+
+.comment {
+    background-color: var(--PrimeryBackGround);
+    padding-top: 140px;
+    padding-bottom: 150px;
+}
+
+.commentCont img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.commentCont p {
+    text-align: center;
+    color: var(--secendyColor);
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.commentCont p:first-of-type {
+    font-size: 18px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.commentCont p:last-of-type {
+    font-size: 13px;
+}
+
+/*
+==========
+End Section 4
+==========
+*/
+
+/*
+========
+Start Footer
+========
+*/
+
+footer {
+    padding-top: 140px;
+    padding-bottom: 30px;
+    background-color: var(--secendyBackGround);
+}
+
+.footerTxt h1, .footerTxt p {
+    color: var(--secendyColor);
+    padding-top: 10px;
+}
+
+.footerTxt h1 {
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+.footerTxt p {
+    font-size: 15px;
+}
+
+footer form input, footer form textarea {
+    background-color: unset;
+    border: none;
+    border-bottom: 2px solid #232323;
+    width: 90%;
+    padding: 10px 5px;
+    font-family: "iransans", sans-serif;
+    color: var(--secendyColor);
+    font-size: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    resize: vertical;
+}
+
+footer form textarea {
+    height: 150px;
+    margin-bottom: 60px;
+}
+
+footer form input::placeholder, footer form textarea::placeholder {
+    font-size: 13px;
+    color: white;
+}
+
+.formTxtBtn p {
+    color: var(--secendyColor);
+    font-size: 13px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+form button {
+    background-color: var(--primeryColor);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "iransans", sans-serif;
+    font-size: 13px;
+    padding: 15px 48px;
+    margin-right: 5%;
+}
+
+.copyRight p {
+    color: var(--secendyColor);
+    font-size: 13px;
+}
+
+.footerSocial {
+    text-align: left;
+}
+
+.footerSocial img {
+    height: 15px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/*
+========
+End Footer
+========
 */

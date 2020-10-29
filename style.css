@@ -709,6 +709,7 @@ Start Section 2
     border: 1px solid #083D2F;
     padding: 55px 25px 35px;
 }
+
 .osCont img {
     height: 55px;
     width: auto;
@@ -723,7 +724,7 @@ Start Section 2
     padding-bottom: 30px;
 }
 
-.osCont p , .osCont h1 {
+.osCont p, .osCont h1 {
     color: var(--secendyColor);
     text-align: center;
 }
@@ -735,5 +736,55 @@ Start Section 2
 /*
 ==========
 End Section 2
+==========
+*/
+
+/*
+==========
+Start Section 3
+==========
+*/
+
+.simpleWorks {
+    background-color: var(--secendyBackGround);
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.wsTitr h1 {
+    color: var(--secendyColor);
+    font-size: 35px;
+}
+
+.wsBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wsBtn a {
+    border-radius: 2px;
+    border: 2px solid var(--primeryColor);
+    color: var(--secendyColor);
+    font-size: 13px;
+    padding: 10px 30px;
+}
+
+.wscont {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wscont img {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+==========
+End Section 3
 ==========
 */

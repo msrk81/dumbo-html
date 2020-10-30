@@ -451,8 +451,14 @@ nav {
 }
 
 nav div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
@@ -507,7 +513,12 @@ header {
 }
 
 .headerBtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
 }
 
@@ -545,7 +556,12 @@ header {
     position: fixed;
     top: 30%;
     left: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -576,7 +592,12 @@ Start Section 1
 }
 
 .aboutMeBtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 50px;
@@ -629,7 +650,12 @@ Start Section 1
 }
 
 .aboutMeSkillsEduction {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     margin-bottom: 30px
 }
@@ -757,9 +783,17 @@ Start Section 3
 }
 
 .wsBtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -794,6 +828,8 @@ Start Section 3
     color: #fff;
     visibility: hidden;
     opacity: 0;
+    -webkit-transition: opacity .2s, visibility .2s;
+    -o-transition: opacity .2s, visibility .2s;
     transition: opacity .2s, visibility .2s;
 }
 
@@ -810,6 +846,8 @@ Start Section 3
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
     color: var(--secendyColor);
@@ -911,6 +949,26 @@ footer form textarea {
     margin-bottom: 60px;
 }
 
+footer form input::-webkit-input-placeholder, footer form textarea::-webkit-input-placeholder {
+    font-size: 13px;
+    color: white;
+}
+
+footer form input::-moz-placeholder, footer form textarea::-moz-placeholder {
+    font-size: 13px;
+    color: white;
+}
+
+footer form input:-ms-input-placeholder, footer form textarea:-ms-input-placeholder {
+    font-size: 13px;
+    color: white;
+}
+
+footer form input::-ms-input-placeholder, footer form textarea::-ms-input-placeholder {
+    font-size: 13px;
+    color: white;
+}
+
 footer form input::placeholder, footer form textarea::placeholder {
     font-size: 13px;
     color: white;
@@ -954,3 +1012,122 @@ form button {
 End Footer
 ========
 */
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+    .headerSocial img {
+        width: 20px;
+    }
+
+    .headerSocial {
+        left: 10px;
+    }
+
+    .headerImg img {
+        width: 80%;
+        float: right;
+    }
+
+    .commentLA img {
+        float: right !important;
+    }
+
+    .commentRA img {
+        float: left !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .headerText p:first-of-type, .headerText h1, .headerText h4,
+    .headerText p:last-of-type, .footerTxt h1, .footerTxt p {
+        text-align: center;
+    }
+
+    .headerBtn {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .headerImg img {
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .aboutMeImg img {
+        margin-top: 50px;
+    }
+
+    .osCont {
+        margin-bottom: 40px;
+    }
+
+    .wsTitr h1 {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .wscont {
+        width: 80%;
+    }
+
+    .commentRA, .commentLA {
+        display: none;
+    }
+
+    .footerTxt {
+        margin-bottom: 50px;
+    }
+
+    footer form input {
+        width: 95%;
+    }
+
+    .formTxtBtn p {
+        margin-top: -30px;
+    }
+
+    .copyRight p {
+        margin-bottom: -30px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav div {
+        display: none;
+    }
+
+    .headerText p:last-of-type {
+        width: 90%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #aboutMeSkillsProgressCont {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .commentCont p {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .headerSocial {
+        display: none;
+    }
+}
+
+/* HOVER */
+
+.footerAboutUs img {
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
